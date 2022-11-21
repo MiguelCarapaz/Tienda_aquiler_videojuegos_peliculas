@@ -57,4 +57,12 @@ public class videojuegos {
     public void setHoras(double horas) {
         this.horas = horas;
     }
+
+    public boolean isEntregado() {
+        return entregado;
+    }
+
+    public void setEntregado(boolean entregado) {
+        this.entregado = entregado;
+    }
 }

@@ -1,10 +1,10 @@
 public class Serie {
 
-    private String creador;
-    private String titulo;
-    private String genero;
-    private int n_temporadas;
-    private boolean entregado;
+    String creador;
+    String titulo;
+    String genero;
+    int n_temporadas;
+    boolean entregado;
 
 
     /*CONSTRUCTOR*/
@@ -75,10 +75,11 @@ public class Serie {
     }
 
 
+    public boolean isEntregado() {
+        return entregado;
+    }
 
-
-
-
-
-
+    public void setEntregado(boolean entregado) {
+        this.entregado = entregado;
+    }
 }//FIN DE LA CLASE SERIE
