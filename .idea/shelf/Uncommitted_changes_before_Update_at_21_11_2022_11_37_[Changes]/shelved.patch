@@ -1,0 +1,73 @@
+Index: src/Entregable.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Entregable {\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Entregable.java b/src/Entregable.java
+--- a/src/Entregable.java	(revision f70191040b0340ef718870b364158cde7257f1b5)
++++ b/src/Entregable.java	(date 1669048665336)
+@@ -1,3 +1,4 @@
+ public class Entregable {
+ 
+-}
++
++}
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f558f00a-2269-4b37-9fb8-d5a1aaf417b2\" name=\"Changes\" comment=\"Creacion proyecto\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/videojuegos.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2HrcX6McRqrpVYwkN5v3FTCCr9T\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"f558f00a-2269-4b37-9fb8-d5a1aaf417b2\" name=\"Changes\" comment=\"\" />\r\n      <created>1669046680913</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1669046680913</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Creacion proyecto\">\r\n      <created>1669046712446</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669046712446</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Creacion proyecto\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Creacion proyecto\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f70191040b0340ef718870b364158cde7257f1b5)
++++ b/.idea/workspace.xml	(date 1669048589361)
+@@ -1,9 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="f558f00a-2269-4b37-9fb8-d5a1aaf417b2" name="Changes" comment="Creacion proyecto">
+-      <change afterPath="$PROJECT_DIR$/src/videojuegos.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    <list default="true" id="f558f00a-2269-4b37-9fb8-d5a1aaf417b2" name="Changes" comment="Clase entregable">
++      <change beforePath="$PROJECT_DIR$/src/Entregable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entregable.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -51,7 +50,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1669046712446</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Clase videojuegos">
++      <created>1669048295053</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1669048295053</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Clase entregable">
++      <created>1669048381910</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1669048381910</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -67,6 +80,8 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Creacion proyecto" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Creacion proyecto" />
++    <MESSAGE value="Clase videojuegos" />
++    <MESSAGE value="Clase entregable" />
++    <option name="LAST_COMMIT_MESSAGE" value="Clase entregable" />
+   </component>
+ </project>
+\ No newline at end of file
